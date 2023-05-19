@@ -140,7 +140,19 @@ body {
 /*------Section 1 hero -----------*/
 
 .hero {
-  background-color: var(--secondary-color) 70%;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/people-office.jpg');
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -195,6 +207,21 @@ body {
 
 .features-list-item {
   width: calc((100%-72px) / 4);
+}
+
+.features-icon-item{
+  width: 264px;
+  height: 112px;
+  
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.features-icon{
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 24px;
+  margin-bottom: 24px; */
 }
 
 .features-item {
