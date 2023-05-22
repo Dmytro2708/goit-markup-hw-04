@@ -190,6 +190,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--color-activ);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*------Section 2 features -----------*/
@@ -224,23 +225,22 @@ body {
   letter-spacing: 0.02em;
 }
 
-.features-icon-box{
+.features-icon-box {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   width: 264px;
   height: 112px;
   background-color: var(--secondary-background-color);
   margin-bottom: 8px;
 }
 
-.features-icon{
+.features-icon {
   display: block;
   width: 64px;
   height: 64px;
   /* margin: 0 auto; */
 }
-
 
 /*------Section 3 What are we doing -----------*/
 
@@ -436,6 +436,8 @@ body {
 .filter-button:focus {
   color: var(--main-background-color);
   background-color: var(--color-activ);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid transparent;
   cursor: pointer;
 }
@@ -452,6 +454,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.portfolio-box:hover,
+.portfolio-box:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-item {
@@ -530,7 +538,7 @@ body {
 
 .footer-social-item:hover,
 .footer-social-item:focus {
-  background-color: var(--color-activ);
+  background: #31D0AA;
 }
 
 .footer-social-list {
@@ -540,7 +548,7 @@ body {
 }
 
 .footer-social {
-  text-align:left;
+  text-align: left;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -548,10 +556,10 @@ body {
   color: var(--main-background-color);
   margin-bottom: 16px;
 }
-.footer-container{
+.footer-container {
   display: flex;
 }
 
-.footer-container-logo{
+.footer-container-logo {
   margin-right: 120px;
 }
