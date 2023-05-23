@@ -378,8 +378,6 @@ body {
 }
 
 .customers-item {
-  /* display: flex;
-  justify-content: center; */
   width: calc((100% - 120px) / 6);
   height: 88px;
   border: 1px solid var(--color-border);
@@ -411,11 +409,6 @@ body {
 .customers-icon {
   fill: currentColor;
 }
-
-/* .customers-icon:hover,
-.customers-icon:focus {
-  fill: var(--color-activ);
-} */
 
 /*------portfolio -----------*/
 
