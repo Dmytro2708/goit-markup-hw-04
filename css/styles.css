@@ -380,7 +380,6 @@ body {
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border-radius: 2px;
 }
 
 .customers-item:hover,
